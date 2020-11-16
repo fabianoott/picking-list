@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="950.0" stylesheets="@css/stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.Controller.menuPrincipalController">
+   <children>
+      <VBox prefHeight="700.0" prefWidth="250.0" style="-fx-background-color: #071631;" stylesheets="@css/stylesheet.css">
+         <children>
+            <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #071631;" stylesheets="@css/stylesheet.Principal.css">
+               <children>
+                  <ImageView fitHeight="73.0" fitWidth="186.0" layoutX="32.0" layoutY="51.0">
+                     <image>
+                        <Image url="@../../../../../../img/logo.JPG" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Button fx:id="button_preFaricado" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="Pré-Fabricado" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_produtoAcabado" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="Produto Acabado" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_enderecamento" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="Endereçamento" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_producao" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="Produção" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_usuario" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="Usuários" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="button_sair" mnemonicParsing="false" prefHeight="73.0" prefWidth="250.0" stylesheets="@css/stylesheet.Principal.css" text="SAIR" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane fx:id="pane_estatico" layoutX="256.0" prefHeight="700.0" prefWidth="700.0">
+         <children>
+            <JFXTextArea layoutX="108.0" layoutY="49.0" prefHeight="65.0" prefWidth="460.0" text="SEJÁ BEM VINDO AO SISTEMA DE PICKING-LIST">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </JFXTextArea>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
